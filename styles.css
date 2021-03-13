@@ -1,0 +1,128 @@
+body { background-color: white;}
+
+p { font-size: 1.5rem;}
+
+#text { position: relative;
+       text-align: left;
+       padding: 25px 50px 75px;
+       font-family: 'Brygada 1918', serif;
+        }
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 7rem;
+    line-height: 2;}
+
+    #image { height: 300px;
+              align-items: center;}
+    header
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 40px 100px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo
+    {
+      color: #111;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Shippori Mincho B1', serif;
+    }
+    .toggle
+    {
+      position: relative;
+      width: 70px;
+      height: 70px;
+      background: url(https://i.ibb.co/HrfVRcx/menu.png);
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center;
+      cursor: pointer;
+    }
+    .toggle.active
+    {
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAmCAYAAACsyDmTAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVRYw8WYS09aURSFLyYaNURFp471L/g3BEkqDpSaqgmQGGwg7aAd+BcVaTRq1BgfpK0V46OpXwfsq8fNVrhwL67kDODsvdY6j3tenicAckDC6zGABJDTfxZpIP8OhvKiXfT/2OQZFWCuh2bmRNPHpgc88BKPQBkYjtDIsGg8Ku0HD0gDh6riBEhFaCglGi4OgbQHDAIlmnEkc2siRCMTwnlk6JWAQT8wJuO5pYL+AcshGloWThdboh2zElaN+bQNzD+578zIoHBsG/Nm9a3EBFAA9owu/Qz0dWCmT3I19kSr9donrbk0CGY7MDRrNPASmA9CMgp8BeqKqCaf63gbHOMSW1McdeEeDdo4D0gCVUX4B1hoI3dBYl1UgWRgI4p43Rj/KvAJGDHiR6SuauStd2VGBOLAR14u8T4KRnzBiKsIR7xrQ47QInCjhHbcIZAh3lExN8BiaEYcMX+SnivBO+C7lDtVd97uR9CNsRSwr4R/S3GxT4T7oWuoH3vv0ygB/ZEbckx9AE4NI6dS15GZwFuB7ymkmFB6ZyDAkA30wlAKOFDiv6S4OIh0Ujuf/ZkSvge+SblXdWeRffbAEnCrBCs0L4x6Rb8FlsI0Egey2FtH3ojPG3EV4eh+6+D5zubiB7CCcYSgcXRZkRiNYrdmkgbxFe0fP66MhgQ/fgBjwBfgWhH+lEna8thJ4zhclhwX18I9FsRQhuaT3i6dH2F3FVcNyLTbMzmDAGAD66rSmjMmuRgNzL3ZU8CaSvKvQRlgKKgZh3dIOKxr0NprSdZF8S+Q7dSIoZEVThdbuA8cwKRMPo1j6erQVlkaq/2GcGuUgUkPmKH5unNM9I8N2lQdmPGfRi4Mt714jnFx8aQJTNN4HqkA6aiMGMbSonkCTOvKKfRbX29M5YCp1yrf5dHT/f0fUIQ0KuOi/GAAAAAASUVORK5CYII=);
+      background-repeat: no-repeat;
+      background-size: 25px;
+      background-position: center;
+      cursor: pointer;
+    }
+    .menu
+    {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 300px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .menu ul
+    {
+      position: relative;
+    }
+    .menu ul li
+    {
+      list-style: none;
+    }
+    .menu ul li a
+    {
+      text-decoration: none;
+      font-size: 24px;
+      color: black;
+    }
+    .menu ul li a:hover
+    {
+      color: #318fb5;
+    }
+     h2
+    {
+      font-size: 1.5rem;
+    }
+     h3
+    {
+      font-size: 10rem;
+    }
+    .showcase
+    {
+     position: absolute;
+      right: 0;
+      width: 100%;
+      min-height: 100vh;
+      padding: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #bedbbb;
+      transition: 0.5s;
+      z-index: 2;
+    }
+    .showcase.active
+    {
+      right: 300px;
+    }
+
+    .row a{
+    display: inline-block;
+    font-size: 1em;
+    background: #8db596;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #111;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    }
+    .row a:hover
+    {
+    letter-spacing: 6px;
+    }
